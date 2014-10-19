@@ -1,0 +1,25 @@
+{% extends 'base.htm' %}
+{%block content%}
+	</header>
+	{% if articles %}
+	<section>
+		<h2>{{ section.sectiontitle }}</h2>
+		{% for article in articles %}
+		<article>
+			<h3>{{ article.articletitle }}</h3>
+			<p>{{ article.text }}</p>
+			<small><a href="{{ article.articleId }}">read more...</a></small>
+			<small><time datetime='{{ article.datetime }}' {{article.pubdate}} />{{article.date}}</time></small>
+		</article>
+		{% endfor %}
+	</section>
+	{% else %}
+		{% for section in sections %}
+			<article>
+				<h3>{{ section.sectiontitle }}</h3>
+				<p>{{ section.description }}</p>
+				<small><a href="articles">read more...</a></small> <!--/{{ section.sectionId }}-->
+			<article>
+		{% endfor %}
+	{% endif %}
+{%endblock%}

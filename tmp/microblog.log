@@ -1,0 +1,632 @@
+2014-07-26 12:12:12,735 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-07-26 12:12:27,699 ERROR: Exception on /user/images/unftt_logo_small.jpg [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:12:28,464 ERROR: Exception on /favicon.ico [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:12:30,283 ERROR: Exception on /style.css [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:12:30,533 ERROR: Exception on /images/unftt_logo_small.jpg [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:12:30,842 ERROR: Exception on /favicon.ico [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:12:36,915 ERROR: Exception on /edit [POST] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 148, in edit
+    db.session.commit()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 114, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 703, in commit
+    self.transaction.commit()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 361, in commit
+    self._prepare_impl()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 340, in _prepare_impl
+    self.session.flush()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1718, in flush
+    self._flush(objects)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1789, in _flush
+    flush_context.execute()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 331, in execute
+    rec.execute(self)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 475, in execute
+    uow
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 59, in save_obj
+    mapper, table, update)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 485, in _emit_update_statements
+    execute(statement, params)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1449, in execute
+    params)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+    context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+    context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+    cursor.execute(statement, parameters)
+IntegrityError: (IntegrityError) column nickname is not unique u'UPDATE user SET nickname=?, about_me=? WHERE user.id = ?' (u'dup', u'', 2)
+2014-07-26 12:12:37,256 ERROR: Exception on /style.css [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:12:37,561 ERROR: Exception on /images/unftt_logo_small.jpg [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:12:37,897 ERROR: Exception on /favicon.ico [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1253, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1213, in handle_http_exception
+    return handler(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 159, in not_found_error
+    return render_template('404.htm'), 404
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 124, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: 404.htm
+2014-07-26 12:16:20,447 ERROR: Exception on /edit [POST] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 148, in edit
+    db.session.commit()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 114, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 703, in commit
+    self.transaction.commit()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 361, in commit
+    self._prepare_impl()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 340, in _prepare_impl
+    self.session.flush()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1718, in flush
+    self._flush(objects)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1789, in _flush
+    flush_context.execute()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 331, in execute
+    rec.execute(self)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py", line 475, in execute
+    uow
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 59, in save_obj
+    mapper, table, update)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 485, in _emit_update_statements
+    execute(statement, params)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1449, in execute
+    params)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+    context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+    context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+    cursor.execute(statement, parameters)
+IntegrityError: (IntegrityError) column nickname is not unique u'UPDATE user SET nickname=?, about_me=? WHERE user.id = ?' (u'dup', u'', 2)
+2014-07-26 15:12:28,231 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 20:33:41,722 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 20:42:05,615 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:27:40,749 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:46:30,322 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:47:38,720 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:50:33,852 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:52:16,600 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:54:57,127 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:56:21,347 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 22:59:39,270 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:02:31,015 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:11:04,903 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:14:07,754 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:14:42,595 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:20:09,195 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:20:46,535 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:21:40,335 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:24:37,135 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-02 23:42:49,230 ERROR: Exception on /edit [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1361, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1439, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2014-08-02 23:43:04,141 ERROR: Exception on /edit [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1361, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1439, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2014-08-02 23:43:19,931 ERROR: Exception on /edit [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1361, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1439, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2014-08-06 23:01:29,041 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-06 23:21:54,957 ERROR: Exception on / [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 27, in index
+    title = 'Home',
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 125, in render_template
+    context, ctx.app)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 107, in _render
+    rv = template.render(context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/templates/index.htm", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: base.html
+2014-08-06 23:22:05,101 ERROR: Exception on /articles [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 27, in index
+    title = 'Home',
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 125, in render_template
+    context, ctx.app)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 107, in _render
+    rv = template.render(context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/templates/index.htm", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: base.html
+2014-08-06 23:22:09,189 ERROR: Exception on /articles [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 27, in index
+    title = 'Home',
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 125, in render_template
+    context, ctx.app)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 107, in _render
+    rv = template.render(context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/templates/index.htm", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: base.html
+2014-08-06 23:22:42,808 ERROR: Exception on /articles [GET] [in /home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py:1306]
+Traceback (most recent call last):
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/views.py", line 27, in index
+    title = 'Home',
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 125, in render_template
+    context, ctx.app)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 107, in _render
+    rv = template.render(context)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/jinja2/environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/legolas/Documenti/FlaskProjects/unftt/app/templates/index.htm", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/legolas/Documenti/FlaskProjects/unftt/flask/local/lib/python2.7/site-packages/flask/templating.py", line 61, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: base.html
+2014-08-09 14:02:42,608 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:02:43,645 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:04:03,431 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:05:42,856 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:06:38,470 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:15:51,457 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:21:57,706 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:22:08,383 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:26:24,821 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:26:45,254 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:27:20,282 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:29:59,676 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:30:40,716 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:30:57,064 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:31:14,770 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:32:05,119 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:32:11,350 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:32:47,340 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:32:50,659 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:35:05,951 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:36:14,309 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:54:08,834 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:54:09,690 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 14:56:41,214 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 15:12:29,022 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 15:14:20,747 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 15:19:04,883 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 15:19:05,835 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:04:50,689 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:05:24,717 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:06:41,350 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:16:59,203 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:17:07,659 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:17:43,603 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:22:53,804 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:23:06,559 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:24:12,877 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:24:53,853 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:30:38,638 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:30:48,314 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:32:01,982 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:32:07,304 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:32:51,535 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:34:45,848 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:36:49,931 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:38:13,990 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:39:58,632 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-09 16:43:59,306 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 15:17:47,439 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 15:17:48,326 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 16:22:57,272 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 16:24:00,621 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 16:24:48,487 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 16:30:04,035 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 16:32:53,325 INFO: microblog startup [in app/__init__.py:41]
+2014-08-10 16:56:55,288 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:00:08,923 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:01:08,271 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:01:22,549 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:03:34,138 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:03:35,173 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:20:15,372 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:20:24,669 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:22:51,133 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:23:46,401 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:23:51,394 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:23:55,637 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:24:24,969 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:51:50,238 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 17:51:51,528 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:24:10,931 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:25:31,803 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:26:06,371 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:31:42,827 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:32:02,300 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:34:24,711 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:35:06,132 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:35:25,121 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:37:31,637 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:39:06,764 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:39:49,789 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-10 18:39:57,009 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-11 21:37:47,855 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-11 21:37:49,153 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-11 21:39:27,310 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-11 21:39:44,587 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-11 21:40:08,448 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:41]
+2014-08-11 22:21:04,958 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:42]
+2014-08-11 22:21:06,030 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:42]
+2014-08-11 22:39:32,392 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-11 22:39:33,572 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-11 22:39:54,660 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-11 22:42:25,422 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-24 17:34:35,670 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-24 17:34:36,784 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 21:44:11,987 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 21:44:13,777 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:01:32,585 INFO: microblog startup [in app/__init__.py:38]
+2014-08-25 22:07:10,224 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:13:49,682 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:24:18,043 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:24:39,968 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:25:33,013 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:26:28,711 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:32:50,501 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:34:29,800 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:41:45,601 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:42:49,989 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-25 22:42:51,228 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-26 23:17:49,456 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-26 23:17:50,572 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-26 23:19:15,026 INFO: microblog startup [in app/__init__.py:38]
+2014-08-31 15:57:03,478 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-31 15:57:04,592 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-08-31 16:45:47,832 INFO: microblog startup [in app/__init__.py:38]
+2014-08-31 16:56:00,881 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-09-19 20:45:13,411 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-09-19 20:45:14,541 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:38]
+2014-09-19 22:04:02,192 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:39]
+2014-09-19 23:16:50,516 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:39]
+2014-09-19 23:16:51,816 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:39]
+2014-09-22 15:57:41,074 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 15:57:42,370 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:11:05,635 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:11:06,861 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:11:35,732 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:11:36,946 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:12:17,950 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:12:57,877 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:28:11,255 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:28:12,372 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:29:29,409 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:29:30,560 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:32:20,005 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:32:21,122 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:40]
+2014-09-22 16:39:47,236 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:46]
+2014-09-22 16:39:48,392 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:46]
+2014-09-22 16:40:01,421 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:46]
+2014-09-22 16:40:02,620 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:46]
+2014-09-22 16:40:29,766 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 16:56:59,372 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 16:57:00,518 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:43:07,308 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:44:01,939 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:44:03,204 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:45:03,094 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:49:32,118 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:49:41,186 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:50:46,518 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-22 17:52:17,864 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-09-25 23:49:34,507 INFO: microblog startup [in app/__init__.py:43]
+2014-10-04 21:23:53,585 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:23:57,024 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:31:40,818 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:32:28,762 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:32:37,083 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:41:23,329 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:48:17,099 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:54:07,184 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:54:10,952 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:55:10,065 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 21:56:00,477 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 22:00:25,704 INFO: microblog startup [in app/__init__.py:43]
+2014-10-04 22:06:34,048 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 22:06:37,652 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 22:07:16,661 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 22:18:43,435 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 22:21:08,529 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 22:21:11,870 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 22:30:49,494 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 23:29:42,608 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 23:30:25,208 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 23:31:50,021 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 23:33:19,255 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 23:33:57,857 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-04 23:36:09,194 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 20:43:03,194 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 20:43:06,447 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 20:51:52,118 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 20:54:37,562 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 20:59:37,055 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 21:01:22,547 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 21:02:55,148 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 21:05:09,820 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 21:10:24,274 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
+2014-10-05 21:27:48,554 INFO: microblog startup [in /home/legolas/Documenti/FlaskProjects/unftt/app/__init__.py:43]
